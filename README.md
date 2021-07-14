@@ -6,6 +6,10 @@ TinyFugue - Rebirth
 Since I wasn't able to get ingwarsw's build to work with SSL, I replaced his socket.c with
 the socket.c found in the 5.0b8 build from Sourceforge.
 
+Note that you should './configure --enable-ssl --enable-python --enable-lua' if you want any of those features.
+
+Some libs you might need: python3, pcre, libssl-dev  - ymmv
+
 NOTE! All credit for Tinyfugue Rebirth goes to ingwarsw [(https://github.com/ingwarsw/tinyfugue)](https://github.com/ingwarsw/tinyfugue)
 Everything else - Ken Keys
 
